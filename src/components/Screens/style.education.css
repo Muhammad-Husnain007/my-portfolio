@@ -1,0 +1,231 @@
+.educationDiv {
+    width: 100%;
+    height: 150vh;
+    /* background-color: antiquewhite; */
+    margin-top: 70px;
+}
+
+.div1 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center !important;
+}
+
+.div1 span {
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 500px;
+}
+
+.education {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.matric {
+    width: 400px;
+    height: 250px;
+    box-shadow: 2px 2px 10px 2px gainsboro;
+    position: relative;
+    left: -250px;
+    border-radius: 10px;
+}
+.matric:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 5px 5px gainsboro;
+}
+
+.matric span {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+
+.matric p {
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    left: 30px;
+    top: 26px;
+    color: gray;
+    line-height: 25px;
+}
+
+.inter{
+    width: 400px;
+    height: 250px;
+    box-shadow: 2px 2px 10px 2px gainsboro;
+}
+.inter:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 5px 5px gainsboro;
+}
+.inter span {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+
+.inter p {
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    left: 30px;
+    top: 26px;
+    color: gray;
+    line-height: 25px;
+}
+
+.div2 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center !important;
+}
+
+.div2 span {
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 500px;
+}
+
+.projects {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project1 {
+    width: 400px;
+    height: 250px;
+    /* background-color: black; */
+    box-shadow: 2px 2px 10px 2px gainsboro;
+    box-shadow: 2px 2px 10px 2px gainsboro;
+    position: relative;
+    left: -250px;
+    border-radius: 10px;
+}
+.project1:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 5px 5px gainsboro;
+}
+.project1 img{
+    width: 100%;
+    height: 250px;
+}
+.project2 {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    /* background-color: black; */
+    box-shadow: 2px 2px 10px 2px gainsboro;
+}
+.project2 img{
+    width: 100%;
+    height: 250px;
+}
+.project2:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 5px 5px gainsboro;
+}
+
+@media screen and (max-width: 768px) {
+    .educationDiv {
+       margin-top: 700px;
+      }
+      .div1 {
+       display: flex;
+       flex-direction: column;
+       height: auto;
+    }
+    .educationSpan{
+       font-size: 30px;
+       margin-left: -400px;
+       position: relative;
+       top: -200px;
+    }
+    .education {
+       height: 800px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 250px;
+        margin-top: -300px;
+    }
+    .matric {
+        width: 350px;
+    }
+    .matric span{
+        font-size: 25px;
+    }
+    .matric p{
+        font-size: 16px;
+    }
+    .inter{
+        width: 350px;
+margin-left: -500px;
+margin-top: 50px;
+    }
+    .inter span{
+        font-size: 25px;
+
+    }
+    .inter p{
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+
+    .div2 {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin-top: 200px;
+     }
+     .projectSpan{
+        font-size: 30px;
+        margin-left: -400px;
+        position: relative;
+        top: -200px;
+     }
+     .projects {
+        height: 800px;
+         display: flex;
+         flex-direction: column;
+         margin-left: 250px;
+         margin-top: -300px;
+     }
+     .project1 {
+         width: 350px;
+     }
+     .project1 span{
+         font-size: 25px;
+     }
+     .project1 p{
+         font-size: 16px;
+     }
+     .project2{
+         width: 350px;
+ margin-left: -500px;
+ margin-top: 50px;
+     }
+     .project2 span{
+         font-size: 25px;
+ 
+     }
+     .project2 p{
+         margin-top: 10px;
+         font-size: 16px;
+     }
+  }

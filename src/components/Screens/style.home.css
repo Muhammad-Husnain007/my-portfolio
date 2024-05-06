@@ -1,0 +1,192 @@
+.mainHome{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* padding-top: 50px; */
+}
+.divLeft{
+    width: 50%;
+    height: 100vh;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.divLeft span{
+font-size: 50px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 100;
+margin-left: -50px;
+}
+.divLeft span img {
+    width: 50px;
+    height: 50px;
+    background: none;
+    position: relative;
+    left: 10px;
+    top: 5px;
+    transition: transform 0.5s ease-in-out;
+    transform-origin: bottom;
+  }
+    
+    
+@keyframes wave {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(-10deg);
+    }
+    75% {
+      transform: rotate(10deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  .waving-hand {
+  
+    animation: wave 0.5s ease-in-out;
+  }
+
+.divLeft p{
+    width: 434px;
+    height: 200px;
+    color: #868E98;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 30px;
+    
+}
+
+.divLeft button{
+    width: 180px;
+    height: 55px;
+    background-color: #55189B;
+    color: #FFFFFF;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+    position: relative;
+    left: -100px;
+    top: 80px;
+}
+.socialImages {
+        width: 300px;
+        height: 70px;
+       position: relative;
+       top: 50px;
+       left: -70px;
+       display: flex;
+       align-items: center;
+       justify-content: space-evenly;
+    }
+    .socialImages a img {
+        width: 40px;
+        height: 40px;
+        
+    }
+
+.divRight{
+    width: 50%;
+    height: 100vh;
+    /* background-color: rgb(37, 156, 156); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .divRight img{
+  margin-left: 100px;
+  width: 40%;
+  height: 350px;
+}
+.divRight button{
+  width: 230px;
+  height: 55px;
+  background-color: #55189B;
+  color: #FFFFFF;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  font-size: 22px;
+  position: relative;
+  left: -70px;
+  top: 80px;
+}
+
+
+/* Media query for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+  .mainHome{
+    width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+}
+  .divLeft {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+  }
+
+  .divLeft span {
+    font-size: 30px;
+    margin-left: -10;
+    margin-top: 40px;
+  }
+
+  .divLeft span img {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+  }
+
+  .divLeft p {
+    width: 90%;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .divLeft button {
+    width: 130px;
+    font-size: 18px;
+    left: -20;
+    top: -40px;
+  }
+
+  .socialImages {
+    width: 100%;
+    top: -50px;
+    justify-content: flex-start;
+margin-left: 170px;
+  }
+
+  .socialImages a img {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+  }
+
+  .divRight {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .divRight img {
+    margin-left: 0;
+    width: 70%;
+    height: auto;
+  }
+
+  .divRight button {
+    width: 180px;
+    font-size: 18px;
+    left: -40;
+    top: 30px;
+  }
+}

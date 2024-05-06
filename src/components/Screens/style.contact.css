@@ -1,0 +1,117 @@
+.contactDiv{
+    width: 100%;
+    height: 78vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  
+}
+.contactMe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 260px;
+
+}
+.contactMe span{
+    font-size: 50px;
+margin-top: -140px;
+}
+.contactMe p{
+    font-size: 22px;
+    margin-top: 20px;
+    color: gray;
+
+}
+.contactMe a{
+    text-decoration: none;
+    color: gray;
+}
+.contactMe a p:hover{
+    color: black;
+
+}
+.social-media {
+    width: 300px;
+    height: 70px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 480px;
+}
+.social-media a img {
+    width: 40px;
+    height: 40px;
+    padding-left: 20px;
+}
+.lastDiv{
+    width: 100%;
+    height: 100px;
+    margin-top: 35px;
+    border-top: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.lastDiv span{
+    font-size: 30px;
+    color: #55189B;
+
+}
+.lastDiv p{
+    font-size: 20px;
+
+}
+
+   
+/* For screens up to 768px width */
+@media screen and (max-width: 768px) {
+    .contactDiv {
+      height: auto; /* Adjust height for smaller screens */
+      margin-top: 200px;
+    }
+  
+    .contactMe {
+      height: auto;
+      margin-top: 0;
+      text-align: center; 
+    }
+  
+    .contactMe span {
+      font-size: 30px; 
+      margin-top: 10px; 
+    }
+  
+    .contactMe p {
+      font-size: 16px; 
+      margin-top: 10px; 
+    }
+  
+    .social-media {
+      width: 100%; 
+      margin: 0; 
+      justify-content: center; 
+    }
+  
+    .social-media a img {
+      padding: 0 10px;
+    }
+  
+    .lastDiv {
+      flex-direction: column; 
+      align-items: center; 
+      margin-top: 20px; 
+    }
+  
+    .lastDiv span {
+      font-size: 25px; 
+    }
+  
+    .lastDiv p {
+      font-size: 16px; 
+      margin-top: 5px; 
+    }
+  }
+  
