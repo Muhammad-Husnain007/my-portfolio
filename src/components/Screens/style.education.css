@@ -35,7 +35,8 @@
     left: -250px;
     border-radius: 10px;
 }
-.matric:hover{
+
+.matric:hover {
     cursor: pointer;
     box-shadow: 2px 2px 5px 5px gainsboro;
 }
@@ -58,15 +59,17 @@
     line-height: 25px;
 }
 
-.inter{
+.inter {
     width: 400px;
     height: 250px;
     box-shadow: 2px 2px 10px 2px gainsboro;
 }
-.inter:hover{
+
+.inter:hover {
     cursor: pointer;
     box-shadow: 2px 2px 5px 5px gainsboro;
 }
+
 .inter span {
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -87,101 +90,159 @@
 
 .div2 {
     width: 100%;
-    height: 400px;
+    height: 800px;
     display: flex;
-    justify-content: center !important;
-}
-
-.div2 span {
+    flex-direction: column;
     font-size: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position: relative;
-    left: 500px;
+    align-items: center;
 }
 
-.projects {
+.projectsRow1 {
     width: 100%;
-    height: 450px;
+    height: 350px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .project1 {
     width: 400px;
     height: 250px;
-    /* background-color: black; */
     box-shadow: 2px 2px 10px 2px gainsboro;
     box-shadow: 2px 2px 10px 2px gainsboro;
-    position: relative;
-    left: -250px;
     border-radius: 10px;
 }
-.project1:hover{
+
+.project1:hover {
     cursor: pointer;
     box-shadow: 2px 2px 5px 5px gainsboro;
 }
-.project1 img{
+
+.project1 img {
     width: 100%;
     height: 250px;
 }
+
 .project2 {
     width: 400px;
     height: 250px;
-    border-radius: 10px;
-    /* background-color: black; */
     box-shadow: 2px 2px 10px 2px gainsboro;
+    box-shadow: 2px 2px 10px 2px gainsboro;
+    border-radius: 10px;
 }
-.project2 img{
+
+.project2:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 5px 5px gainsboro;
+}
+
+.project2 img {
     width: 100%;
     height: 250px;
 }
-.project2:hover{
+
+.projectsRow2 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+
+.project3 {
+    width: 400px;
+    height: 250px;
+    box-shadow: 2px 2px 10px 2px gainsboro;
+    box-shadow: 2px 2px 10px 2px gainsboro;
+    border-radius: 10px;
+    position: relative;
+    left: 155px;
+}
+
+.project3:hover {
     cursor: pointer;
     box-shadow: 2px 2px 5px 5px gainsboro;
+}
+
+.project3 p {
+    font-size: 14px;
+    color: rgb(63, 63, 63);
+    margin: 10px auto;
+    margin-left: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+line-height: 25px;
+}
+.project3 a{
+    font-size: 14px;
+    position: relative;
+    left: 10px;
+    top: -3px;
+    text-decoration: none;    
+}
+.project3 a:hover{
+    text-decoration: underline;    
 }
 
 @media screen and (max-width: 768px) {
     .educationDiv {
-       margin-top: 700px;
-      }
-      .div1 {
-       display: flex;
-       flex-direction: column;
-       height: auto;
+        overflow-x: hidden;
+        height: 1800px;
     }
-    .educationSpan{
-       font-size: 30px;
-       margin-left: -400px;
-       position: relative;
-       top: -200px;
+
+
+    .div1 {
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+
     }
+
+    .educationSpan {
+        font-size: 40px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 0px;
+        left: 0px !important;
+    }
+
     .education {
-       height: 800px;
+        height: 800px;
         display: flex;
         flex-direction: column;
         margin-left: 250px;
-        margin-top: -300px;
+        margin-top: -60px;
     }
+
     .matric {
         width: 350px;
     }
-    .matric span{
-        font-size: 25px;
+
+    .matric span {
+        font-size: 30px;
     }
-    .matric p{
+
+    .matric p {
         font-size: 16px;
     }
-    .inter{
+
+    .inter {
         width: 350px;
-margin-left: -500px;
-margin-top: 50px;
+        margin-left: -500px;
+        margin-top: 50px;
+        border-radius: 10px;
+
     }
-    .inter span{
+
+    .inter span {
         font-size: 25px;
 
     }
-    .inter p{
+
+    .inter p {
         margin-top: 10px;
         font-size: 16px;
     }
@@ -190,42 +251,59 @@ margin-top: 50px;
     .div2 {
         display: flex;
         flex-direction: column;
-        height: auto;
-        margin-top: 200px;
-     }
-     .projectSpan{
+        height: 950px;
         font-size: 30px;
-        margin-left: -400px;
+        font-size: 35px;
+        overflow-x: hidden;
+    }
+
+
+    .projectsRow1 {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projectSpan {
+        font-size: 40px;
+    }
+
+    .project1 {
+        width: 340px;
+        height: 250px;  
+    }
+    .project1 iframe{
+        width: 340px !important;
+        height: 250px;  
+        border-radius: 10px;
+    }
+
+    .project2 {
+        width: 340px;
+        height: 250px;
         position: relative;
-        top: -200px;
-     }
-     .projects {
-        height: 800px;
-         display: flex;
-         flex-direction: column;
-         margin-left: 250px;
-         margin-top: -300px;
-     }
-     .project1 {
-         width: 350px;
-     }
-     .project1 span{
-         font-size: 25px;
-     }
-     .project1 p{
-         font-size: 16px;
-     }
-     .project2{
-         width: 350px;
- margin-left: -500px;
- margin-top: 50px;
-     }
-     .project2 span{
-         font-size: 25px;
- 
-     }
-     .project2 p{
-         margin-top: 10px;
-         font-size: 16px;
-     }
-  }
+        top: 30px;
+    }
+
+    .project2 img {
+        border-radius: 10px;
+
+    }
+
+    .projectsRow2 {
+        width: 100%;
+        height: 330px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project3 {
+        width: 340px;
+        position: relative;
+        left: 0px;
+        top: 50px;
+    }
+
+}

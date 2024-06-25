@@ -123,14 +123,16 @@ margin-left: -50px;
 @media screen and (max-width: 768px) {
   .mainHome{
     width: 100%;
-   height: auto;
+   height: 1050px;
    display: flex;
    flex-direction: column;
+   overflow-x: hidden;
 }
   .divLeft {
     width: 100%;
     height: 400px;
     text-align: center;
+    
   }
 
   .divLeft span {
@@ -155,7 +157,7 @@ margin-left: -50px;
     width: 130px;
     font-size: 18px;
     left: -20;
-    top: -40px;
+    top: -10px;
   }
 
   .socialImages {
@@ -173,8 +175,11 @@ margin-left: 170px;
 
   .divRight {
     width: 100%;
-    height: auto;
+    height: 570px;
     text-align: center;
+    position: relative;
+    top: 40px;
+
   }
 
   .divRight img {
@@ -187,6 +192,6 @@ margin-left: 170px;
     width: 180px;
     font-size: 18px;
     left: -40;
-    top: 30px;
+    top: 60px;
   }
 }

@@ -58,16 +58,18 @@ color: gainsboro;
 }
 
 @media screen and (max-width: 768px) {
-    .skillDiv{
-        margin-top: 100px;
-        
-    }
+  .skillDiv{
+    height: 1200px;
+
+  }
     .mySkillsText {
       height: 15vh;
     }
   
     .mySkillsText span {
       font-size: 40px;
+      position: relative;
+      top: 20px;
     }
   
     .skills {

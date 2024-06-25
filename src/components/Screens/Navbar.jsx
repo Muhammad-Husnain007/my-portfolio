@@ -19,7 +19,7 @@ const Navbar = () => {
     scrollTo(1350); // Scrolls 2000 pixels
   };
   const scrollToContact = () => {
-    scrollTo(2150); // Scrolls 3000 pixels
+    scrollTo(2500); // Scrolls 3000 pixels
   };
   
   return (
@@ -31,13 +31,8 @@ const Navbar = () => {
         <li onClick={scrollToEducation}>Education</li>
         <li onClick={scrollToContact}>Contact Me</li>
       </ul>
-      <img className='menue-img' src={Menue} alt="" />
-      {/* <div className='for-Menue'>
-
-      </div> */}
     </div>
   );
 };
 
 export default Navbar
-
