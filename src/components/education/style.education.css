@@ -1,0 +1,63 @@
+.education-container {
+  padding: 80px 10%;
+  background: #fff;
+  text-align: center;
+}
+
+.education-container h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Education List */
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Each Card */
+.edu-card {
+  background: #f7f8f8;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.edu-card:hover {
+  transform: translateY(-5px);
+  background: #ff9800;
+  color: white;
+}
+
+.edu-card h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.edu-card p {
+  font-size: 15px;
+  color: #666;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+/* Hover par text white */
+.edu-card:hover p {
+  color: white;
+
+}
+
+/* 🔹 Responsive */
+@media screen and (max-width: 768px) {
+  .education-list {
+    gap: 15px;
+  }
+}

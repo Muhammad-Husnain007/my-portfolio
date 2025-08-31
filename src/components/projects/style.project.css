@@ -1,0 +1,163 @@
+/* ===== Projects Container ===== */
+.projects-container {
+  padding: 60px 10%;
+  background: #f7f8f8;
+  text-align: center;
+}
+
+.projects-container h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+  color: #333;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* ===== Grid Layout ===== */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+/* ===== Project Card ===== */
+.project-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+
+  /* NEW: flexbox layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.project-card h3 {
+  margin: 15px 0 10px;
+  color: #ff9800;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.project-card p {
+  flex-grow: 1;  /* jitna space available hai, use fill karega */
+  color: #555;
+  font-size: 15px;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* ===== Image Container (with overlay) ===== */
+.image-container {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.main-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  
+  /* optional */
+}
+
+/* Overlay default hidden */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  /* black transparent overlay */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 12px;
+  /* same as image */
+}
+
+/* Hover par dikhai de */
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+/* Icon style */
+.overlay-icon {
+  width: '10%';
+  height: '10%';
+  filter: invert(1);
+  transition: transform 0.3s ease-in-out;
+
+}
+
+.overlay-icon:hover {
+  transform: scale(1.2);
+}
+
+
+/* ===== Buttons ===== */
+.viewCode-btn {
+  align-self: flex-start; /* left aligned (ya center bhi kar sakte ho) */
+  background: #333;
+  color: #fff;
+  padding: 10px 22px;
+  border-radius: 25px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.viewCode-btn:hover {
+  background: #ff9800;
+  transform: translateY(-2px);
+}
+
+/* Anchor inside button */
+.viewCode-btn a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.viewCode-btn a:hover {
+  color: #fff;
+}
+
+/* ===== Responsive Fix ===== */
+@media screen and (max-width: 500px) {
+  .projects-container {
+    padding: 40px 5%;
+  }
+
+  .project-card {
+    padding: 15px;
+  }
+
+  .project-card h3 {
+    font-size: 18px;
+  }
+
+  .project-card p {
+    font-size: 14px;
+  }
+}

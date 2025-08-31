@@ -1,7 +1,5 @@
 import react from 'react'
-
-import './App.css'
-import Routing from './components/routing/Routing'
+import Routing from './routing/Routing.jsx'
 
 function App() {
 

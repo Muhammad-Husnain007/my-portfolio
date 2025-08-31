@@ -1,0 +1,129 @@
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 10%;
+  min-height: calc(100vh - 70px);
+  /* minus navbar height */
+  background: #f7f8f8;
+}
+
+.go-to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background: #ff9800;
+  color: white;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 100%;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.go-to-top:hover {
+  background: #e68a00;
+}
+
+.intro-section {
+  max-width: 600px;
+}
+
+.intro-section h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.intro-section h1 span {
+  color: #ff9800;
+  /* highlight color */
+}
+
+.intro-section h2 {
+  font-size: 22px;
+  color: #555;
+  margin-bottom: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.intro-section p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  color: #444;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.btn-group {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  text-decoration: none;
+  background: #333;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.btn:hover {
+  background: #ff9800;
+}
+
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid #333;
+  color: #333;
+}
+
+.btn-outline:hover {
+  background: #333;
+  color: white;
+}
+
+/* Right Side Image */
+.image-section {
+  width: 30%;             /* quotes hatao */
+  height: 30%;            /* quotes hatao */
+  border-radius: 100%;
+}
+
+.image-section img {
+  width: 100%;            /* quotes hatao */
+  height: 100%;           /* quotes hatao */
+  border-radius: 100%;
+  border: 5px solid #ff9800;
+  object-fit: contain;    /* image container ke andar fit hogi */
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
+  .home-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .image-section {
+    margin-top: 30px;
+  }
+
+  .image-section img {
+    width: 250px;
+  }
+}
