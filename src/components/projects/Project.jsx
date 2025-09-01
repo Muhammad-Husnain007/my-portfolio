@@ -1,8 +1,8 @@
 import React from 'react';
 import './style.project.css';
-import WhatsApp from '../../assets/whatsapp.jpeg';
+import WhatsApp from '../../assets/whatsApp.jpeg';
 import Olx from '../../assets/olx.jpeg';
-import Visit from '../../assets/Visit.png';
+import Visit from '../../assets/visit.png';
 import Youtube from '../../assets/youtube.jpeg';
 
 function Project() {

@@ -145,8 +145,8 @@
 
 /* ===== Responsive Fix ===== */
 @media screen and (max-width: 500px) {
-  .projects-container {
-    padding: 40px 5%;
+   .projects-container {
+    padding: 30px 5%;   /* 60px -> 30px */
   }
 
   .project-card {

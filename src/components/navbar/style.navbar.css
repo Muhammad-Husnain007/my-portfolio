@@ -61,6 +61,18 @@
   height: 28px;
   cursor: pointer;
 }
+.menu-toggle.menu-icon {
+  width: 28px;
+  height: 28px;
+  
+}
+
+/* Close icon ka alag size */
+.menu-toggle.close-icon {
+  width: 20px;   /* bigger example */
+  height: 20px;
+
+}
 
 /* ====== Responsive ====== */
 @media screen and (max-width: 768px) {

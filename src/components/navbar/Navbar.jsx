@@ -10,6 +10,11 @@ const Navbar = () => {
     setMenuOpen(!menuOpen);
   };
 
+  // jab link click ho toh menu close karna
+  const handleLinkClick = () => {
+    setMenuOpen(false);
+  };
+
   return (
     <header className="navbar">
       <div className="container">
@@ -18,18 +23,18 @@ const Navbar = () => {
 
         {/* Links */}
         <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#skills" onClick={handleLinkClick}>Skills</a></li>
+          <li><a href="#projects" onClick={handleLinkClick}>Projects</a></li>
+          <li><a href="#education" onClick={handleLinkClick}>Education</a></li>
+          <li><a href="#about" onClick={handleLinkClick}>About</a></li>
+          <li><a href="#contact" onClick={handleLinkClick}>Contact</a></li>
         </ul>
 
         {/* Mobile Toggle */}
         <img
           src={menuOpen ? closeIcon : menuIcon}
           alt="menu"
-          className="menu-toggle"
+          className={`menu-toggle ${menuOpen ? "close-icon" : "menu-icon"}`}
           onClick={toggleMenu}
         />
       </div>
