@@ -29,34 +29,41 @@ function About() {
         {/* Right side - Text */}
        <div className="about-text">
   <h2>About Me</h2>
-  <p>
-    Hi, I'm <span>Muhammad Husnain</span>, a dedicated 
-    <strong> MERN Stack & Mobile Application Developer</strong> with a strong passion 
-    for building modern, scalable, and user-friendly digital solutions. 
-    I specialize in crafting seamless mobile apps, responsive websites, and 
-    secure backend systems that solve real-world problems.
-  </p>
+   <p>
+            Hi, I'm <span>Muhammad Husnain</span>, a dedicated
+            <strong>MERN Stack & Mobile Application Developer</strong> with a strong passion
+            for building modern, scalable, and user-friendly digital solutions.
+            I specialize in crafting seamless mobile apps, responsive websites, and
+            secure backend systems that solve real-world problems.
+          </p>
 
-  <p>
-    I have hands-on experience working on <b>real-time projects</b>, including 
-    mobile applications, portfolio websites, and backend services. 
-    My expertise includes <b>React, React Native, Node.js, Express.js, MongoDB, 
-    Firebase, and Cloudinary</b>, allowing me to deliver both frontend and backend 
-    solutions with efficiency.
-  </p>
+          <p>
+            I have hands-on experience working on <b>real-time projects</b>, including
+            mobile applications, portfolio websites, and backend services.
+            My expertise includes <b>React, React Native, Node.js, Express.js, MongoDB,
+              Firebase, and Cloudinary</b>, allowing me to deliver both frontend and backend
+            solutions with efficiency.
+          </p>
 
-  <p>
-    During my <b>internship experiences</b>, I collaborated with teams to 
-    develop and optimize applications, integrate APIs, and improve user 
-    experiences. These opportunities helped me strengthen my problem-solving 
-    mindset, teamwork, and project delivery skills.
-  </p>
+          <p>
+            💼 Worked as a <b>Backend Developer at Astral Developer LLC</b>, where I contributed
+            to developing and optimizing backend systems, integrating APIs, and ensuring secure,
+            scalable solutions.
+          </p>
 
-  <p>
-    I am always eager to <b>learn new technologies</b>, take on challenging projects, 
-    and contribute to impactful ideas. My goal is to grow as a full-stack and 
-    mobile developer while delivering high-quality solutions that make a difference.
-  </p>
+          <p>
+            Worked as a <b>React Native Developer</b>, where I collaborated with teams
+            to develop and optimize applications, integrate APIs, and enhance user
+            experiences. This role helped me strengthen my problem-solving mindset,
+            teamwork, and project delivery skills.
+          </p>
+
+
+          <p>
+            I am always eager to <b>learn new technologies</b>, take on challenging projects,
+            and contribute to impactful ideas. My goal is to grow as a full-stack and
+            mobile developer while delivering high-quality solutions that make a difference.
+          </p>
 
   <a href="#contact" className="btn-about">Contact Me</a>
 </div>
