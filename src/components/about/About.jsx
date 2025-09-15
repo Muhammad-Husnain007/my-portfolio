@@ -27,15 +27,12 @@ function About() {
         </motion.div>
 
         {/* Right side - Text */}
-<<<<<<< HEAD
        <div className="about-text">
   <h2>About Me</h2>
-   <p>
-=======
-        <div className="about-text">
+   
+           <div className="about-text">
           <h2>About Me</h2>
           <p>
->>>>>>> ef0e2be (Fix mobile scroll issue in Contact form and clear inputs after submit)
             Hi, I'm <span>Muhammad Husnain</span>, a dedicated
             <strong>MERN Stack & Mobile Application Developer</strong> with a strong passion
             for building modern, scalable, and user-friendly digital solutions.
@@ -63,7 +60,6 @@ function About() {
             experiences. This role helped me strengthen my problem-solving mindset,
             teamwork, and project delivery skills.
           </p>
-<<<<<<< HEAD
 
 
           <p>
@@ -71,8 +67,6 @@ function About() {
             and contribute to impactful ideas. My goal is to grow as a full-stack and
             mobile developer while delivering high-quality solutions that make a difference.
           </p>
-=======
->>>>>>> ef0e2be (Fix mobile scroll issue in Contact form and clear inputs after submit)
 
 
           <p>
@@ -86,6 +80,7 @@ function About() {
         </div>
 
       </div>
+    </div>
     </div>
   );
 }
