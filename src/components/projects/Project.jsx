@@ -4,9 +4,14 @@ import WhatsApp from '../../assets/whatsApp.jpeg';
 import Olx from '../../assets/olx.jpeg';
 import Visit from '../../assets/visit.png';
 import Youtube from '../../assets/youtube.jpeg';
+import ndisync from '../../assets/ndisync.jpg';
+import client from '../../assets/client.jpg';
+import dashboard from '../../assets/dashboard.jpg';
+import UsaPublishing from '../../assets/usaPub.jpg';
+import techSeller from '../../assets/techseller.jpg';
 
 function Project() {
-  const projects = [
+   const projects = [
     {
       title: "Chat App",
       image: WhatsApp,
@@ -27,7 +32,42 @@ function Project() {
       desc: "Backend APIs for video sharing platform with subscriptions, likes, and playlists.",
       link: "https://github.com/Muhammad-Husnain007/Backend_Project",
       demoLink: "https://github.com/Muhammad-Husnain007/Backend_Project",
-    }
+    },
+    {
+      title: "NdiSync Website",
+      image: ndisync,
+      desc: "Developed the frontend of the NdiSync app, creating a responsive and user-friendly interface for video sharing, including features like subscriptions, likes, and playlists.",
+      link: "https://ndisync.ai/",
+      demoLink: "https://ndisync.ai/",
+    },
+    {
+      title: "ClassyShop Ecommerce Website",
+      image: client,
+     desc: "A modern and responsive ecommerce website for ClassyShop, featuring smooth product browsing, secure checkout, user authentication, and dynamic inventory management.",
+      link: "https://github.com/Muhammad-Husnain007/Ecommerce-Website",
+      demoLink: "https://github.com/Muhammad-Husnain007/Ecommerce-Website",
+    },
+    {
+      title: "ClassyShop Dashboard",
+      image: dashboard,
+     desc: "A sleek and intuitive admin dashboard for ClassyShop, featuring seamless management of products, users, and orders with real-time analytics and reports.",
+      link: "https://github.com/Muhammad-Husnain007/Ecommerce-Website",
+      demoLink: "https://github.com/Muhammad-Husnain007/Ecommerce-Website",
+    },
+    {
+  title: "USA Publishing Group",
+  image: UsaPublishing,
+  desc: "Worked on UI improvements and updates for USA Publishing Group, enhancing user experience and interface consistency across the platform.",
+  link: "https://usapublishinggroup.com/",
+  demoLink: "https://usapublishinggroup.com/",
+},
+{
+  title: "TechSeller USA",
+  image: techSeller,
+  desc: "Contributed to UI design changes and visual updates for TechSeller USA, focusing on a modern and responsive interface for better usability.",
+  link: "https://techsellerusa.com/",
+  demoLink: "https://techsellerusa.com/",
+},
   ];
 
   return (

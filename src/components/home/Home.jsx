@@ -26,7 +26,7 @@ export default function Home() {
           animate={{ x: 0, opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.8 }}
         >
-          Mobile Application Developer | MERN Stack Developer
+          Full Stack Websites & Mobile Applications Developer
         </motion.h2>
 
         <motion.p
@@ -72,8 +72,8 @@ export default function Home() {
 
           {/* ✅ Fixed Resume Download */}
           <motion.a
-            href="/Muhammad_Husnain_Resume.pdf"
-            download="Muhammad_Husnain_Resume.pdf"
+            href="/Husnain_Full_Stack_Developer.pdf"
+            download="Husnain_Full_Stack_Developer.pdf"
             className="btn btn-outline"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
@@ -85,22 +85,16 @@ export default function Home() {
 
       {/* Right Side Profile Image */}
       <motion.div
-        className="image-section"
+        className=""
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ delay: 1, duration: 0.8 }}
       >
-        <motion.img
-          src={Profile}
-          alt="profile"
-          animate={{ y: [0, -15, 0] }}
-          transition={{
-            duration: 3,
-            repeat: Infinity,
-            ease: "easeInOut",
-          }}
-        />
+        <motion.img className="image-section" src="/animation.gif" alt="" />
+      
       </motion.div>
+
+
     </section>
   );
 }

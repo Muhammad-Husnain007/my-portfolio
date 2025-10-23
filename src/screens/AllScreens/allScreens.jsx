@@ -10,13 +10,12 @@ import GoToTopButton from '../../components/home/GoTop.jsx'
 
 function AllScreens() {
   return (
-    <div>
+    <div className=''>
         <Navbar />
         <Home />
-        <Project />
-        <Skills />
-        <Education />
         <About />
+        <Skills />
+        <Project />
         <Contact />
         <GoToTopButton />
     </div>

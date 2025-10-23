@@ -1,24 +1,19 @@
 .about-container {
   padding: 80px 10%;
-  background: #f7f8f8;
+  background: white;
 }
 
 .about-content {
-  display: flex;
+  display: flex !important;
   align-items: center;
   justify-content: space-between;
   gap: 40px;
-  flex-wrap: wrap;
 }
 
 .about-image img {
-  width: 300px;
-  height: 550px;
-  border-radius: 10%;
+ height: 330px;
+  position: relative;
   object-fit: cover;
-  border: 5px solid #ff9800;
-  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
-  /* object-fit: contain; */
 }
 
 .about-text {
@@ -38,7 +33,7 @@
   color: #444;
   line-height: 1.6;
   margin-bottom: 15px;
-    font-family: 'Courier New', Courier, monospace;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
@@ -55,7 +50,7 @@
   border-radius: 25px;
   text-decoration: none;
   transition: all 0.3s ease;
-  font-family: 'Courier New', Courier, monospace;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: 500;
   position: relative;
   top: 20px;
